@@ -4,7 +4,7 @@ import { AppDispatch, RootState } from "@/redux/store";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import axios from "axios";
-import { setAllOrderData } from "@/redux/orderSlice"; // 👈 आपकी redux file
+import { setAllOrderData } from "@/redux/orderSlice"; 
 
 function getAllOrdersData() {
   const dispatch = useDispatch<AppDispatch>();
